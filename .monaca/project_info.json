@@ -1,0 +1,14 @@
+{
+    "cordova_version": "7.1",
+    "framework_version": "3.5",
+    "xcode_version": "9",
+    "title-ja": "JavaScript課題用(Monaca)",
+    "title-en": "",
+    "description-ja": "",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [
+        "android"
+    ],
+    "name": "generated-1523587758-5ad019aee7888520678b4568"
+}

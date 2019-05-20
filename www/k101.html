@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+    </script>
+</head>
+  <body>
+    <div class="header-contents">
+    <h1>課題101</h1>
+    <h2>JavaScript教科書の課題</h2>
+    </div><!-- /.header-contents -->
+    </header>
+    <div class="main-wrapper">
+    <section>
+    <p id="text">こんにちは、皆さん！</p>
+    <button id="myButton">ここをクリック</button>
+    
+    <p id="secondParagragh">JavaScriptは、</p>
+    <button id="secondButton">文字列連結</button>
+    
+    <p id="thirdParagraph">CSSを変更してみよう！</p>
+    <button id="changeStyle">スタイルを変更</button>
+    </section>
+    </div><!-- /.main-wrapper -->
+    <footer>課題実習用</footer>
+    
+    <script>
+      document.getElementById("myButton").onclick=function(){
+        document.getElementById("text").innerHTML="クリックを検知しました！";
+      }
+      document.getElementById("secondButton").onclick=function(){
+        document.getElementById("secondParagragh").innerHTML += 
+	"ブラウザでもサーバサイドでも動作するプログラミング言語です";
+      }
+      document.getElementById("changeStyle").onclick=function(){
+        document.getElementById("thirdParagraph").style.color ="red";
+      }
+    </script>
+    
+  </body>
+</html>
